@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:gikuyu_dictionary/pages/dashboard_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -51,7 +50,7 @@ class _SplashPageState extends State<SplashPage> {
     return Scaffold(
       body: Container(
         //Color.fromARGB(255, 207, 83, 38)
-        decoration: const BoxDecoration(color: Colors.white
+        decoration: const BoxDecoration(color: Colors.black
             // gradient: LinearGradient(
             //   colors: [orangeColors, orangeLightColors],
             //   end: Alignment.bottomCenter,
@@ -61,7 +60,7 @@ class _SplashPageState extends State<SplashPage> {
         child: Padding(
           padding: const EdgeInsets.all(70.0),
           child: Center(
-            child: Image.asset("assets/images/logoo.png"),
+            child: Image.asset("assets/images/newlogo.jpeg"),
           ),
         ),
       ),
